@@ -251,6 +251,4 @@ async def classify_file(file: UploadFile = File(...)):
 
 if __name__ == "__main__":
     import uvicorn
-
-    # Rodando na porta 8000
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run("main:app", host="0.0.0.0", port=10000)
