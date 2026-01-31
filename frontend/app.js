@@ -2,7 +2,7 @@
 // CONFIGURAÇÃO
 // ============================================
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://emailclassifier-ai-618m.onrender.com';
 
 // Variáveis globais
 let selectedFile = null;
@@ -522,5 +522,6 @@ function initializeApp() {
     console.log('API URL:', API_URL);
     console.log('Histórico carregado:', getHistory().length, 'entradas');
 }
+
 
 document.addEventListener('DOMContentLoaded', initializeApp);
