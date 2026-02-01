@@ -5,10 +5,3 @@ PyPDF2==3.0.1
 python-multipart==0.0.6
 pydantic==2.5.3
 python-dotenv==1.0.1
-# Como instalar:
-# pip install -r requirements.txt
-#
-# Como rodar:
-# 1. Configure sua chave OpenAI: export OPENAI_API_KEY="sua-chave-aqui"
-# 2. Execute: python -m uvicorn main:app --reload
-# 3. Acesse: http://localhost:8000/docs (documentação automática!)
