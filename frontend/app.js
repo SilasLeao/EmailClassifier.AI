@@ -44,7 +44,7 @@ function clearHistory() {
     if (confirm('Tem certeza que deseja limpar todo o histórico?')) {
         localStorage.removeItem('emailClassifierHistory');
         updateHistoryDisplay();
-        showSuccessMessage('Histórico limpo com sucesso!');
+        showSuccessMessage('Histórico apagado com sucesso!');
     }
 }
 
@@ -525,3 +525,4 @@ function initializeApp() {
 
 
 document.addEventListener('DOMContentLoaded', initializeApp);
+
